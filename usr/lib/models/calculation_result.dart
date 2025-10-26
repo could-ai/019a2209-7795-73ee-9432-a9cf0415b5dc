@@ -1,3 +1,5 @@
+import 'package:fl_chart/fl_chart.dart';
+
 class CalculationResult {
   final double mean;
   final double stdDev;

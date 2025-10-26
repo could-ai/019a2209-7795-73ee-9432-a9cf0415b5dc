@@ -1,5 +1,5 @@
 name: couldai_user_app
-description: "A new Flutter project."
+description: "A financial calculator app for mean reversion and zone strength analysis with live market data."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  http: ^1.2.2  # For API calls to fetch live market data
+  provider: ^6.1.2  # For state management
+  intl: ^0.19.0  # For number formatting and date handling
+  fl_chart: ^0.69.0  # For displaying charts in the calculator
+
 
 dev_dependencies:
   flutter_test:
